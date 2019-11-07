@@ -44,6 +44,7 @@ GRANT ALL PRIVILEGES ON DATABASE jiradb TO
 
 # Error
 
+## Error1
 <p align="center">
   <img width="500" src="https://i.imgur.com/cz4n1Qu.png">
 </p>
@@ -57,3 +58,10 @@ docker exec -it container_jira /bin/sh
 rm -rf JIRA_HOME/caches
 ```
 exit container và khởi động lại container
+
+## Error2
+
+<p align="center">
+  <img width="600" src="https://i.imgur.com/MeZTn79.png">
+</p>
+

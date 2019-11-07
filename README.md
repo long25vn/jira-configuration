@@ -26,8 +26,8 @@ psql
 CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPLATE template0;
 ```
 
+####  Gán quyền truy cập database
 ```
-// gán quyền truy cập database
 // GRANT ALL PRIVILEGES ON DATABASE <Database Name> TO <Role Name>
 GRANT ALL PRIVILEGES ON DATABASE jiradb TO 
 ```

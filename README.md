@@ -15,7 +15,10 @@ docker run --name postgres -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres:
 #### Truy cập container Postgres, tạo database kết nối Jira
 
 ```
+// Truy cập container
 docker exec -it postgres /bin/sh
+su postgres
+psql
 ```
 
 ```

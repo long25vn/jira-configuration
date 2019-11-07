@@ -35,6 +35,8 @@ GRANT ALL PRIVILEGES ON DATABASE jiradb TO
 ### Truy cập `localhost:8080`
 ![](https://i.imgur.com/0e1lgKv.png)
 
+### Trang cấu hình
+
 <p align="center">
   <img width="750" src="https://i.imgur.com/wSQ3B5Q.png">
 </p>

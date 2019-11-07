@@ -80,3 +80,5 @@ exit container và khởi động lại container
 ![](https://i.imgur.com/aV45Mkd.png)
 
 ![](https://i.imgur.com/PQPh8di.png)
+
+![](https://i.imgur.com/0p8kLMv.png)

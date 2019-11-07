@@ -40,3 +40,20 @@ GRANT ALL PRIVILEGES ON DATABASE jiradb TO
 <p align="center">
   <img width="750" src="https://i.imgur.com/wSQ3B5Q.png">
 </p>
+
+
+# Error
+
+<p align="center">
+  <img width="500" src="https://i.imgur.com/cz4n1Qu.png">
+</p>
+
+### Nguyên nhân
+> Một số chỉ sổ cấu hình lỗi
+
+### Khắc phục 
+```
+docker exec -it container_jira /bin/sh
+rm -rf JIRA_HOME/caches
+```
+exit container và khởi động lại container

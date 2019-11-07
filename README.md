@@ -66,3 +66,8 @@ exit container và khởi động lại container
 </p>
 
 [https://community.atlassian.com/t5/Jira-articles/How-to-run-Jira-in-a-docker-container/ba-p/752697](https://community.atlassian.com/t5/Jira-articles/How-to-run-Jira-in-a-docker-container/ba-p/752697)
+
+
+<p align="center">
+  <img width="600" src="https://i.imgur.com/U3nHhRf.png">
+</p>

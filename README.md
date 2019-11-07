@@ -31,3 +31,6 @@ CREATE DATABASE jiradb WITH ENCODING 'UNICODE' LC_COLLATE 'C' LC_CTYPE 'C' TEMPL
 // GRANT ALL PRIVILEGES ON DATABASE <Database Name> TO <Role Name>
 GRANT ALL PRIVILEGES ON DATABASE jiradb TO 
 ```
+
+### Truy cập `localhost:8080`
+![](https://i.screenshot.net/48exls7)

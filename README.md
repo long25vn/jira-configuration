@@ -5,6 +5,7 @@ Lưu ý: gán ram cho docker từ 8gb
 <p align="center">
   <img width="500" src="https://i.imgur.com/Trgwjwe.png">
 </p>
+
 ```
 docker volume create --name jiraVolume
 docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software

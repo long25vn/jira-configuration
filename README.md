@@ -5,6 +5,11 @@
 ```
 docker volume create --name jiraVolume
 docker run -v jiraVolume:/var/atlassian/application-data/jira --name="jira" -d -p 8080:8080 atlassian/jira-software
+
+hoặc
+
+sudo docker run --detach --publish 8080:8080 --link jiradb-postgres:postgres --name jira7 cptactionhank/atlassian-jira-software:latest
+
 ```
 
 ## Tạo container Postgres 
@@ -65,9 +70,15 @@ exit container và khởi động lại container
   <img width="600" src="https://i.imgur.com/MeZTn79.png">
 </p>
 
+### Khắc phục 
+```
+docker exec -it container_jira /bin/sh
+// Xoá 2 file ẩn trong thư mục JIRA_HOME/plugins
+và rm -rf JIRA_HOME/caches
+```
 [https://community.atlassian.com/t5/Jira-articles/How-to-run-Jira-in-a-docker-container/ba-p/752697](https://community.atlassian.com/t5/Jira-articles/How-to-run-Jira-in-a-docker-container/ba-p/752697)
 
-
+## Error3
 <p align="center">
   <img width="600" src="https://i.imgur.com/U3nHhRf.png">
 </p>
@@ -75,10 +86,13 @@ exit container và khởi động lại container
 
 
 # Tiếp theo
+### Tạo Trial key
 ![](https://i.imgur.com/6tZUUwM.png)
 
 ![](https://i.imgur.com/aV45Mkd.png)
 
 ![](https://i.imgur.com/PQPh8di.png)
 
+
+# Tạo thành công
 ![](https://i.imgur.com/0p8kLMv.png)

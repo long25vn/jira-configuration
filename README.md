@@ -33,4 +33,4 @@ GRANT ALL PRIVILEGES ON DATABASE jiradb TO
 ```
 
 ### Truy cập `localhost:8080`
-![](https://i.screenshot.net/48exls7)
+![](https://i.imgur.com/moz9l2o.png)
